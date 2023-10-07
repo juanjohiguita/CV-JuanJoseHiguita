@@ -61,7 +61,6 @@ const LeftSidebar = () => {
                 <ProgressBar percentage={60} name="Javascript" />
                 <ProgressBar percentage={65} name="Python" />
                 <ProgressBar percentage={30} name="C#" />
-                
             </section>
             <section className="p-4 ">
                 <h2>
