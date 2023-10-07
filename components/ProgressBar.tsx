@@ -6,9 +6,9 @@ interface PercentageBarProps {
   const percentageBar = ({ percentage, name }: PercentageBarProps) => {
     const percentageStyle = {
       width: `${percentage}%`,
-      backgroundColor: "#0e7490",
-      height: "5px",
-      borderRadius: "5px",
+      backgroundColor: "#e11d48",
+      height: "7px",
+      borderRadius: "7px",
     };
   
     return (
@@ -16,7 +16,7 @@ interface PercentageBarProps {
         <h2 className="float-left">{name}</h2>
         <h2 className="float-right">{percentage}%</h2>
         <br></br>
-        <div className="p-0.5 rounded-full outline outline-1 outline-cyan-700">
+        <div className="p-0.5 rounded-full outline outline-1 outline-black">
           <div style={percentageStyle} />
         </div>
       </div>

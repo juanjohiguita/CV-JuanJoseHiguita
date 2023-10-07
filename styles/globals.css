@@ -6,4 +6,11 @@
   background-color: red;
 }
 
+.debug {
+  outline: 1px solid red;
+}
+
+.debug {
+  border: 1px solid red;
+}
 

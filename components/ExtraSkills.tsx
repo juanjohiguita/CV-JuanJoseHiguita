@@ -7,7 +7,7 @@ interface skills {
 const extraSkills = ({ name }: skills) => {
   return (
     <div>
-      <FaLightbulb className="mr-5 float-left" color="#0e7490" />
+      <FaLightbulb className="float-left mr-5" color="#e11d48" />
       <h2>{name}</h2>
     </div>
   );
