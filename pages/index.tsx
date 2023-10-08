@@ -1,9 +1,11 @@
 import DialogWindow from "@/components/DialogWindow";
 import { HireMeButton } from "@/components/HireMeButton";
+import MyKnowledge from "@/components/MyKnowledge";
 import { LeftSidebar } from "@/components/LeftSidebar";
 import { RightSidebar } from "@/components/RightSidebar";
 import Subtitle from "@/components/Subtitle";
 import React from "react";
+import Portafolio from "@/components/Portafolio";
 
 
 const Index = () => {
@@ -33,7 +35,7 @@ const Index = () => {
                 <h2 className="mr-2 text-rose-700">Back-end</h2>
                 <h2>Developer</h2>
               </div>
-      
+
               <h4 className="mb-2 font-medium text-[#767676] whitespace-normal max-w-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea maxime voluptatem enim obcaecati earum natus pariatur delectus modi quia, magnam veritatis maiores inventore consectetur nemo fuga tenetur necessitatibus autem.
               </h4>
               <div>
@@ -47,20 +49,37 @@ const Index = () => {
             </div>
           </div>
         </section>
-        <section className="flex justify-center">
-          <div>
+        <section >
+          <div className="flex justify-center flex-wrap">
             <Subtitle title="My Knowledge" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea maxime voluptatem enim obcaecati earum natus pariatur delectus modi quia, magnam veritatis maiores inventore consectetur nemo fuga tenetur necessitatibus autem." />
           </div>
-          <div>
-              
+          <div className="flex justify-center flex-wrap my-10">
+            <MyKnowledge image="images/fotoJuanJse.png" title="primer knowledge" text="Primer texto" alt="Imagen aguapanea con limon" />
+            <MyKnowledge image="images/fotoJuanJose.png" title="segundo knowledge" text="Segundo texto" alt="Imagen diferente" />
+            <MyKnowledge image="images/fotoJuanJosx.png" title="tercer knowledge" text="Tercer texto" alt="Imagen 5" />
+            <MyKnowledge image="images/fotoJuanJose.png" title="cuarto knowledge" text="Cuarto texto" alt="Imagen 6" />
+            <MyKnowledge image="images/fotoJuanJose.png" title="quinto knowledge" text="Quinto texto" alt="Imagen 7" />
+
+          </div>
+
+
+        </section>
+        <section >
+          <div className="flex justify-center flex-wrap">
+            <Subtitle title="Education" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea maxime voluptatem enim obcaecati earum natus pariatur delectus modi quia, magnam veritatis maiores inventore consectetur nemo fuga tenetur necessitatibus autem." />
+          </div>
+          <div className="bg-[#FFFFFF]">
+            /* Aqui van los componentes de Education */
           </div>
 
         </section>
-        <section className="flex justify-center">
-          <Subtitle title="Education" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea maxime voluptatem enim obcaecati earum natus pariatur delectus modi quia, magnam veritatis maiores inventore consectetur nemo fuga tenetur necessitatibus autem." />
-        </section>
-        <section className="flex justify-center">
-          <Subtitle title="Portafolio" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea maxime voluptatem enim obcaecati earum natus pariatur delectus modi quia, magnam veritatis maiores inventore consectetur nemo fuga tenetur necessitatibus autem." />
+        <section>
+          <div className="flex-wrap flex justify-center">
+            <Subtitle title="Portafolio" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea maxime voluptatem enim obcaecati earum natus pariatur delectus modi quia, magnam veritatis maiores inventore consectetur nemo fuga tenetur necessitatibus autem." />
+          </div>
+          <div>
+            <Portafolio image="images/fotoJuanJose.png" title="primer portafolio" text="Primer texto" alt="Imagen aguapanea con limon" />
+          </div>
         </section>
         <footer className="mb-0 text-center w-full min-w-max m-2 p-10  bg-neutral-50">
           2023 All Rights Reversed. JuanjoHiguita
