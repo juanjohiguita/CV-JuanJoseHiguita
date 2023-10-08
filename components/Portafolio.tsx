@@ -2,10 +2,9 @@ interface PortafolioProps {
     image?: string;
     title: string;
     text: string;
-    link?: string;
     alt?: string;
 }
-const Portafolio = ({ image, title, text, link, alt }: PortafolioProps) => {
+const Portafolio = ({ image, title, text, alt }: PortafolioProps) => {
     return (
         <div className="text-center bg-neutral-50 p-10 w-96 min-w-max rounded-xl m-2 hover:scale-95">
             <img src={image} alt={alt} className="m-auto w-20 h-20" />
