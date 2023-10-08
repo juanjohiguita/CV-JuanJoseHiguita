@@ -7,7 +7,7 @@ const LeftSidebar = () => {
             <section >
                 <section className="flex flex-col items-center">
                     <div>
-                        <img className="rounded-full w-40 mx-auto p-4" src="images/fotoJuanJose.png" alt="foto personal" />
+                        <img className="rounded-full w-40 mx-auto p-4" src="../public/images/fotoJuanJose.png" alt="foto personal" />
                     </div>
                     <div>
                         <span className="font-bold">Juan José Higuita Sánchez</span>
