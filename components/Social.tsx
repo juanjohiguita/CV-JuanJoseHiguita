@@ -1,6 +1,4 @@
 import { FaFacebookF, FaInstagram, FaGithub, FaYoutube, FaTwitter, FaTwitch } from "react-icons/fa";
-import { IoShareSocialOutline } from "react-icons/io5";
-
 
 interface ButtonProps {
   name: string;

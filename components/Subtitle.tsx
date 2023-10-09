@@ -7,7 +7,7 @@ interface SubtitleProps {
     return (
       <div className="text-center p-10 w-96 min-w-max m-2">
         <h2 className="text-4xl mb-5 font-bold">{title}</h2>
-        <h4 className="mb-2 font-medium text-gray-500 whitespace-normal max-w-xl">{text}</h4>
+        <h4 className="mb-2 font-medium whitespace-normal max-w-xl  text-gray-500">{text}</h4>
       </div>
     );
   };

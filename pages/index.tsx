@@ -6,6 +6,7 @@ import { RightSidebar } from "@/components/RightSidebar";
 import Subtitle from "@/components/Subtitle";
 import React from "react";
 import Portafolio from "@/components/Portafolio";
+import EducationCard from "@/components/EducatioCard";
 
 
 const Index = () => {
@@ -22,13 +23,13 @@ const Index = () => {
 
 
   return (
-    <div className="flex h-full max-h-max w-screen bg-[#F0F0F6]">
+    <div className="flex h-full max-h-max w-auto  bg-stone-200">
       <DialogWindow open={open} selectedValue="" onClose={handleClose} />
       <LeftSidebar />
       <div className="ml-[22%]"></div>
       <main className="max-w-7xl">
         <section className=" flex justify-center flex-wrap ">
-          <div className="m-10 mt-0 w-full flex justify-between text-justify gap-6 bg-[#FFFFFF] min-w-max ">
+          <div className="m-10 mt-0 w-full flex justify-between text-justify gap-6 bg-[#FFFFFF] min-w-max rounded-b-2xl">
             <div className="flex flex-col p-16 ">
               <h2 className="mt-10 mb-1 font-bold text-5xl">I am Juan José Higuita</h2>
               <div className="mb-5 mt-1 font-bold text-5xl flex">
@@ -45,7 +46,7 @@ const Index = () => {
               </div>
             </div>
             <div className="flex justify-center">
-              <img className="m-auto mb-0 mx-12 w-72" src="images/fotoJuanJose.png" alt="foto personal" />
+              <img className="m-auto mb-0 mx-12 w-72" src="images/FotoJuanJose.png" alt="foto personal" />
             </div>
           </div>
         </section>
@@ -68,7 +69,21 @@ const Index = () => {
           <div className="flex justify-center flex-wrap">
             <Subtitle title="Education" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea maxime voluptatem enim obcaecati earum natus pariatur delectus modi quia, magnam veritatis maiores inventore consectetur nemo fuga tenetur necessitatibus autem." />
           </div>
-          <div className="bg-[#FFFFFF]">
+          <div className="rounded-md">
+            <EducationCard
+              place="I.E Maestro Fernando Botero"
+              role="High School Student"
+              date="Jan 2010 - Nov 2016"
+              title="Technical Bachelor"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            />
+            <EducationCard
+              place="Universidad de Antioquia"
+              role="University Student"
+              date="Jun 2019 - Nov 2024"
+              title="Computer Science Engineer"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            />
           </div>
 
         </section>
@@ -76,8 +91,26 @@ const Index = () => {
           <div className="flex-wrap flex justify-center">
             <Subtitle title="Portafolio" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea maxime voluptatem enim obcaecati earum natus pariatur delectus modi quia, magnam veritatis maiores inventore consectetur nemo fuga tenetur necessitatibus autem." />
           </div>
-          <div>
-            <Portafolio image="images/FotoJuanJose.png" title="primer portafolio" text="Primer texto" alt="Imagen aguapanea con limon" />
+          <div className="w-full flex overflow-x-auto ">
+            <Portafolio
+              title="Career Recommendation"
+              text="The purpose of this app is to help such students select a career track by providing a match-based scored recommendation of academic and professional routes, promoting the development of the government-aided quality educational system by reducing the student dropout."
+              image="images/career.png"
+              link="https://github.com/dsceafit/ds-squads/tree/main/career-recommendation"
+
+            />
+            <Portafolio
+              title="Career Recommendation"
+              text="The purpose of this app is to help such students select a career track by providing a match-based scored recommendation of academic and professional routes, promoting the development of the government-aided quality educational system by reducing the student dropout."
+              image="images/career.png"
+              link="https://github.com/dsceafit/ds-squads/tree/main/career-recommendation"
+            />
+            <Portafolio
+              title="Career Recommendation"
+              text="The purpose of this app is to help such students select a career track by providing a match-based scored recommendation of academic and professional routes, promoting the development of the government-aided quality educational system by reducing the student dropout."
+              image="images/career.png"
+              link="https://github.com/dsceafit/ds-squads/tree/main/career-recommendation"
+            />
           </div>
         </section>
         <footer className="mb-0 text-center w-full min-w-max m-2 p-10  bg-neutral-50">

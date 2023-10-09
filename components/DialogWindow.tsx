@@ -17,7 +17,7 @@ function DialogWindow(props: DialogWindow) {
 
     return (
         <Dialog onClose={handleClose} open={open}>
-            <DialogTitle>Grateful to Messi because you're trying to get to know me.</DialogTitle>
+            <DialogTitle>Grateful to Messi because you are trying to get to know me.</DialogTitle>
             <DialogContent className="flex flex-wrap justify-center">
                 <img src="images/MemeTrofeo.jpg" alt="meme to get to know me" />
                 <DialogContentText>

@@ -12,7 +12,7 @@ const LeftSidebar = () => {
                     <div>
                         <span className="font-bold">Juan José Higuita Sánchez</span>
                     </div>
-                    <span className="p-3">Backend Developer</span>
+                    <span className="p-3">Back-End Developer</span>
                 
                 </section>
                 <hr></hr>
@@ -60,7 +60,6 @@ const LeftSidebar = () => {
                 <ProgressBar percentage={80} name="Java" />
                 <ProgressBar percentage={60} name="Javascript" />
                 <ProgressBar percentage={65} name="Python" />
-                <ProgressBar percentage={30} name="C#" />
             </section>
             <section className="p-4 ">
                 <h2>
@@ -69,7 +68,6 @@ const LeftSidebar = () => {
                 <ExtraSkills name="MongoDB" />
                 <ExtraSkills name="MERN" />
                 <ExtraSkills name="Teamwork" />
-                <ExtraSkills name="Git Knowledge" />
             </section>
             <br></br>
         </aside>
