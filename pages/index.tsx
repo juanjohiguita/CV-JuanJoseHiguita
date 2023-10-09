@@ -69,7 +69,6 @@ const Index = () => {
             <Subtitle title="Education" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea maxime voluptatem enim obcaecati earum natus pariatur delectus modi quia, magnam veritatis maiores inventore consectetur nemo fuga tenetur necessitatibus autem." />
           </div>
           <div className="bg-[#FFFFFF]">
-            /* Aqui van los componentes de Education */
           </div>
 
         </section>
