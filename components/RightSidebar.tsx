@@ -12,7 +12,7 @@ const RightSidebar = () => {
                         <Social name="Github" link="https://github.com/juanjohiguita" />
                         <Social name="Youtube" link="https://www.youtube.com/@elpirocho6821" />
                         <Social name="Twitter" link="https://twitter.com/ElPirocho" />
-                        <Social name="Twitch" link="https://www.twitch.tv/elpiroch0" />
+                        <Social name="Linkedin" link="https://www.linkedin.com/in/juan-jose-higuita-sanchez/" />
                     </div>
                 </section>
             </section>

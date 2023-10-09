@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaGithub, FaYoutube, FaTwitter, FaTwitch } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaGithub, FaYoutube, FaTwitter, FaTwitch, FaLinkedin } from "react-icons/fa";
 
 interface ButtonProps {
   name: string;
@@ -60,13 +60,13 @@ const Social = ({ link, name }: ButtonProps) => {
     },
     {
       icon: (
-        <FaTwitch
+        <FaLinkedin
           onClick={() => window.open(link)}
           size={size}
           className="m-auto"
         />
       ),
-      name: "Twitch",
+      name: "Linkedin",
     },
   ];
 
