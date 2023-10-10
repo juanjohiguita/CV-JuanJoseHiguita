@@ -1,9 +1,9 @@
-interface PercentageBarProps {
+interface ProgressBarProps {
     percentage: number;
     name: string;
   }
   
-  const percentageBar = ({ percentage, name }: PercentageBarProps) => {
+  const progressBar = ({ percentage, name }: ProgressBarProps) => {
     const percentageStyle = {
       width: `${percentage}%`,
       backgroundColor: "#e11d48",
@@ -23,4 +23,4 @@ interface PercentageBarProps {
     );
   };
   
-  export default percentageBar;
+  export default progressBar;
